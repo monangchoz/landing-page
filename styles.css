@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Optional: Makes managing element sizes easier */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 20px;
+    padding-left: 100px;
+    font-weight: 900;
+}
+
+.header-right{
+    display: flex;
+    color: #E5E7EB;
+    gap: 20px;
+    font-size: 18px;
+    padding-right: 100px;
+    
+}

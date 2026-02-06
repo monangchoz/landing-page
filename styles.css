@@ -16,15 +16,44 @@
     font-size: 24px;
     color: #F9FAF8;
     padding: 20px;
-    padding-left: 100px;
+    padding-left: 175px;
     font-weight: 900;
 }
 
 .header-right{
     display: flex;
     color: #E5E7EB;
-    gap: 20px;
+    gap: 24px;
     font-size: 18px;
-    padding-right: 100px;
-    
+    padding-right: 175px;
+    }
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+.right-information{
+
+}
+
+.hero-information{
+    font-size: 48px;
+    color: #F9FAF8;
+    padding: 20px;
+    padding-left: 175px;
+    font-weight: 900;
+}
+
+.subtext-information{
+    font: 18px;
+    color: #E5E7EB;
+    padding-left: 175px;
+}
+
+.sign-up{
+    margin-left: 175px;
 }

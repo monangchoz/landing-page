@@ -81,3 +81,18 @@
     padding: 100px 120px;
 }
 
+.random-illustration{
+    display: flex;
+    gap: 20px;
+}
+
+.illustration-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-image{
+    padding: 20px;
+    background-color: black;
+}
+

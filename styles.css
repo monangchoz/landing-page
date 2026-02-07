@@ -16,7 +16,7 @@
     font-size: 24px;
     color: #F9FAF8;
     padding: 20px;
-    padding-left: 175px;
+    padding-left: 225px;
     font-weight: 900;
 }
 
@@ -25,7 +25,7 @@
     color: #E5E7EB;
     gap: 24px;
     font-size: 18px;
-    padding-right: 175px;
+    padding-right: 225px;
     }
 
 .information{
@@ -34,26 +34,50 @@
     background-color: #1f2937;
     font-family: "Roboto", sans-serif;
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.left-information{
+    flex:1;
+
 }
 
 .right-information{
+    display: flex;
+    flex:1;
 
 }
 
 .hero-information{
     font-size: 48px;
     color: #F9FAF8;
-    padding: 20px;
-    padding-left: 175px;
+    padding: 20px 0px 5px 125px;
+    padding-left: 225px;
     font-weight: 900;
 }
 
 .subtext-information{
     font: 18px;
     color: #E5E7EB;
-    padding-left: 175px;
+    width: 630px;
+    padding: 0px 0px 10px 225px;
 }
 
 .sign-up{
-    margin-left: 175px;
+    margin-left: 225px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius:8px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 900;
 }
+
+.image-information{
+    color: #E5E7EB;
+    background-color: grey;
+    padding: 100px 120px;
+}
+
